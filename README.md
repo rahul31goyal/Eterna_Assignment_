@@ -227,4 +227,6 @@ NEXT_PUBLIC_WS_URL=your-websocket-url
 - Comprehensive interfaces
 
 ## Vercel Link
+https://eterna-assignment-git-main-rahul-goyals-projects-1a5fee3f.vercel.app?_vercel_share=JJkTU1S6V3L0rEzQkHnnNgUrQ5dDeUuF
+
 
