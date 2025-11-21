@@ -6,14 +6,19 @@
 import { TokenPair, TokenBadge, TokenStatus } from '@/types';
 
 const TOKEN_NAMES = [
-  { symbol: 'santa', name: 'bagholder', image: 'https://picsum.photos/seed/santa/100/100' },
-  { symbol: 'ZIGGY', name: 'Ziggy', image: 'https://picsum.photos/seed/ziggy/100/100' },
-  { symbol: 'UP', name: 'Uptick Network', image: 'https://picsum.photos/seed/uptick/100/100' },
-  { symbol: 'Ziggy', name: 'zigfriedwizard', image: 'https://picsum.photos/seed/wizard/100/100' },
-  { symbol: 'W', name: 'W Coin', image: 'https://picsum.photos/seed/wcoin/100/100' },
-  { symbol: 'EARLY', name: 'is not wrong', image: 'https://picsum.photos/seed/early/100/100' },
-  { symbol: 'CATUTU', name: 'CATUTU', image: 'https://picsum.photos/seed/catutu/100/100' },
+  { symbol: "MOCHI", name: "Mochi Roll", image: "https://picsum.photos/seed/mochiroll/100/100" },
+  { symbol: "GLYPH", name: "GlyphStone", image: "https://picsum.photos/seed/glyphstone/100/100" },
+  { symbol: "NEB", name: "Nebula Coin", image: "https://picsum.photos/seed/nebulacoin/100/100" },
+  { symbol: "FOAM", name: "Foam Protocol", image: "https://picsum.photos/seed/foamproto/100/100" },
+  { symbol: "CRWL", name: "CrawlToken", image: "https://picsum.photos/seed/crawltoken/100/100" },
+  { symbol: "OWL", name: "NightOwl Finance", image: "https://picsum.photos/seed/nightowl/100/100" },
+  { symbol: "PLNK", name: "PlanktonX", image: "https://picsum.photos/seed/planktonx/100/100" },
+  { symbol: "RIFT", name: "Rift Shard", image: "https://picsum.photos/seed/riftshard/100/100" },
+  { symbol: "KOKO", name: "KoKo Beans", image: "https://picsum.photos/seed/kokobeans/100/100" },
+  { symbol: "SPRK", name: "SparkBite", image: "https://picsum.photos/seed/sparkbite/100/100" },
+  { symbol: "BUB", name: "BubbleChain", image: "https://picsum.photos/seed/bubbleseed/100/100" },
 ];
+
 
 const randomInRange = (min: number, max: number): number => {
   return Math.random() * (max - min) + min;
